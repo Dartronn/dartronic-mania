@@ -1,0 +1,149 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-image: url('https://i.imgflip.com/6dldts.png?a464592');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightskyblue;
+}
+
+.fondo_negro_transparente{
+    padding: 10px;
+    margin: 10px;
+    background:rgba(0, 0, 0, 0.4);
+}
+
+p{
+    color: blue;
+}
+
+h1{
+    color:blue;
+    font-family:'Courier New', Courier, monospace;
+}
+
+ul{
+    color: green;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-weight: bold;
+}
+
+input{
+    color: darkblue;
+}
+
+h6{
+    font-size:xx-small;
+    font-weight: lighter;
+}
+
+#parrafoPrueba{
+    color:red;
+    display: inline;
+}
+
+section{
+    background-color: cadetblue;
+    width: fit-content;
+    border: 10px outset pink;
+    padding: 5px;
+    margin: 20px; 
+}
+
+h2{
+    color:orangered;
+    border: 3px outset goldenrod;
+}
+
+.anillos{
+    width: 30px;
+    height: 50px;
+}
+
+.div_anillos1{
+    width:fit-content;
+    margin:auto;
+}
+
+.boton_dartron_falken{
+    background-color: blue;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+}
+
+.boton_dartron_falken:hover{
+    background-color: darkblue;
+    cursor: crosshair;
+}
+
+#hentai_cream{
+    border: 4px outset pink;
+    margin: 10px;
+}
+
+/*Clase para centrar (matenme)*/
+.centrado_dartron{
+    width: fit-content !important;
+    margin:auto !important;
+}
+
+#video_cancion{
+    border: 5px groove lightblue;
+}
+
+/*Desktop*/
+@media (min-width: 1024px) {
+    #video_cancion{
+        width: 500px !important;
+        height: 315px;
+    }
+}
+
+/*Tablet*/
+@media (max-width: 1023px) {
+    #video_cancion{
+        width: 400px !important;
+        height: 270px;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 767px) {
+    #video_cancion{
+        width: 300px !important;
+        height: 200px;
+    }
+}
+
+.hentai_imagen{
+    width: 300px;
+    height: 300px;
+    margin:auto;
+}
+
+.contenedor_hentai{
+    width: fit-content;
+    margin: auto;
+}
+
+.modificacion_carousel_hentai{
+    width: fit-content !important;
+    margin: auto !important;
+    float:none !important;
+}
+
+.carousel-item{
+    transition: ease !important;
+}
+
+
+#carouselExampleSlidesOnly{
+    float: right;
+    width: 250px;
+}
+
+.imagen_publicidad{
+    width: auto;
+}

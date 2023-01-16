@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dartronic Mania</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <link rel="icon" href="https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/44/Ring8.gif/revision/latest/scale-to-width-down/375?cb=20201010064646&path-prefix=es" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="fondo_negro_transparente">
+        <div class="div_anillos1">
+            <img class="anillos" src="https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/44/Ring8.gif/revision/latest/scale-to-width-down/375?cb=20201010064646&path-prefix=es">
+            <img class="anillos" src="https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/44/Ring8.gif/revision/latest/scale-to-width-down/375?cb=20201010064646&path-prefix=es">
+            <img class="anillos" src="https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/44/Ring8.gif/revision/latest/scale-to-width-down/375?cb=20201010064646&path-prefix=es">
+            <img class="anillos" src="https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/44/Ring8.gif/revision/latest/scale-to-width-down/375?cb=20201010064646&path-prefix=es">
+            <img class="anillos" src="https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/44/Ring8.gif/revision/latest/scale-to-width-down/375?cb=20201010064646&path-prefix=es">
+            <img class="anillos" src="https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/44/Ring8.gif/revision/latest/scale-to-width-down/375?cb=20201010064646&path-prefix=es">
+            <img class="anillos" src="https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/44/Ring8.gif/revision/latest/scale-to-width-down/375?cb=20201010064646&path-prefix=es">
+            <img class="anillos" src="https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/44/Ring8.gif/revision/latest/scale-to-width-down/375?cb=20201010064646&path-prefix=es">
+            <img class="anillos" src="https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/44/Ring8.gif/revision/latest/scale-to-width-down/375?cb=20201010064646&path-prefix=es"> 
+        </div>
+    
+        <div>
+            <input type="button" class="boton_dartron_falken" value="Dartron Falken" onclick="dartronFalken()">
+        </div>
+    
+        <h1 id="h1Lol">Bienvenido al registro para ingresar a los Iluminatis</h1>
+        <h6>Puto el que lee</h6>
+        <hr>
+
+        <div id="div_decision_registro">
+          <p>¿Desea registrarse?</p>
+          <select id="decision_registro" name="seleccionar">
+            <option></option>
+            <option class="opcion">SI</option>
+            <option class="opcion">NO</option>
+          </select>
+          <input id="envio_de_respuesta" type="button" value="Enviar respuesta" onclick="envioRespuesta()">
+        </div>
+        
+        <hr>
+
+        <div id="div_ingreso_nombre" style= "display:none;">
+          <p>Ingrese su nombre por favor:</p>
+          <input id="nombre_a_registrar" type="text" placeholder="Falken ya está tomado">
+          <input id="boton_registro" type="submit" value="Registrar nombre" onclick="registroNombre()">
+        </div>
+
+        <hr>
+
+        <ul>
+            <li>Pinga</li>
+            <li>Coño</li>
+            <li>Chichis</li>
+        </ul>
+    
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div id="carousel_publicidad" class="carousel-inner" onclick="abrirImagenPublicidad()">
+            <div class="carousel-item active">
+              <img id="abrir_imagen_publicidad" src="https://mir-s3-cdn-cf.behance.net/projects/404/76801b145856159.Y3JvcCwxMjY1LDk4OSwwLDQ2.jpg" class="d-block w-100" alt="..." onclick="abrirImagenPublicidad1()">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/originals/bc/1f/ba/bc1fba04aeb093312d89e9bcf141be31.jpg" class="d-block w-100" alt="..." onclick="abrirImagenPublicidad2()">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.shutterstock.com/image-vector/barber-shop-vector-vintage-poster-260nw-1932645428.jpg" class="d-block w-100" alt="..." onclick="abrirImagenPublicidad3()">
+            </div>
+          </div>
+        </div>
+
+        <hr>
+    
+        <p>Forro hijo de remil puta, la concha de tu madre <strong>VILLALBA</strong>, ojalá te coja un negro.</p> 
+    
+        <div>
+            <iframe id="video_cancion" src="https://www.youtube.com/embed/QKqgroUYvPU" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+        </div>
+        
+        <p id="parrafoPrueba">Trolazo</p>
+    
+        <div class="centrado_dartron">
+          <section>
+            <h2>Espacio reservado para hentai:</h2>
+            <div class="centrado_dartron">
+                <img id="hentai_cream" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsN92Y4HRMiE2EYwF5y3q_cel2C4klWxvrwg&usqp=CAU">
+            </div>
+            <div id="carouselExample" class="carousel slide">
+                <div class="contenedor_hentai carousel-inner">
+                  <div class="modificacion_carousel_hentai carousel-item active">
+                    <img class= "hentai_imagen" src="https://imgs.search.brave.com/9m4b1Uq8yyM-bD5lcTjvooKihdeNyP6VY2YI1MlQ1Vg/rs:fit:800:704:1/g:ce/aHR0cDovL2hlbnRh/aXBvcm5zLm5ldC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/Mi9BbXktUm9zZTAw/Ni5qcGc" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="modificacion_carousel_hentai carousel-item">
+                    <img class= "hentai_imagen" src="https://imgs.search.brave.com/AaHBn7ZaLdkCbolYKSoKpsORJqcJJteLzoGPPRKCgUw/rs:fit:1200:1173:1/g:ce/aHR0cHM6Ly9waWN0/dXJlcy5oZW50YWkt/Zm91bmRyeS5jb20v/dC9Ud2lzdGVkU2Nh/cmxldHQ2MC84MjIy/MzcvVHdpc3RlZFNj/YXJsZXR0NjAtODIy/MjM3LVJvdWdlX0Jh/dC5wbmc" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="modificacion_carousel_hentai carousel-item">
+                    <img class= "hentai_imagen" src="https://imgs.search.brave.com/r04pZDldzktZqUBD0FsMd2Y-s3TiZqsw1UiTBt92e8o/rs:fit:887:896:1/g:ce/aHR0cHM6Ly91cy5y/dWxlMzQueHh4L2lt/YWdlcy8xMTUvZGJk/Mjk4MWQ3NTExMmRl/ZGE3OTExYTU4NDYx/NmE4N2JjOGE4Y2Fl/Zi5naWY_MTE0NjI0.gif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="modificacion_carousel_hentai carousel-item">
+                    <img class= "hentai_imagen" src="https://imgs.search.brave.com/BQxH92IhLjHh1KsWXnRp2bCCmTMtch6-RvAz1-Yqv2Y/rs:fit:1024:1200:1/g:ce/aHR0cHM6Ly9oZW50/YWlwb3Jucy5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMTYv/MTEvYmxhemUtdGhl/LWNhdC1zb25pYy10/aGUtaGVkZ2Vob2cw/MS5qcGVn" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="modificacion_carousel_hentai carousel-item">
+                    <img class= "hentai_imagen" src="https://imgs.search.brave.com/MomAD36qIsAKu5k_cQek614jzMGtqAbV0ftPbuTMG7M/rs:fit:742:800:1/g:ce/aHR0cHM6Ly9zdGF0/aWMxLmU2MjEubmV0/L2RhdGEvc2FtcGxl/LzhhLzQyLzhhNDI1/OTJhNmVlYjRiMzc5/NDdhOTZiODUzMTYy/NWEwLmpwZw" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        </div>
+
+    </div>
+
+
+</body>
+
+<script src="js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</html>
