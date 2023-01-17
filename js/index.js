@@ -14,12 +14,14 @@ function envioRespuesta(){
     if(document.getElementById("decision_registro").value == "SI"){
         alert("Bienvenido al FAB.");
         document.getElementById("div_ingreso_nombre").style.display = "block";
+        document.getElementById("div_decision_registro").style.display = "none";
     }
     else if(document.getElementById("decision_registro").value == ""){
         alert("Elija una opción.");
     }
     else{
         alert("Andá a cagar.");
+        document.getElementById("div_decision_registro").style.display = "none";
     }
 }
 
