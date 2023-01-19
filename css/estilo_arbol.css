@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://i.ytimg.com/vi/MAEDgOedPic/maxresdefault.jpg");
+    background-size: cover;
+
+}
+
+#contenedor_musica{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+.centrado_dartron{
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+}
+
+.flex_dartron{
+    display: flex;
+}
+
+#boton{
+    width: 70px;
+    height: 50px;
+}
+
+i{
+    color: #058;
+    font-size: x-large;
+}
